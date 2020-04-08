@@ -1,0 +1,19 @@
+<view class="wrap">
+
+  <!-- 图片预览区 -->
+  <view class="avatar">
+    <image src="/uploads/boy.jpg" mode="aspectFill"></image>
+  </view>
+
+  <!-- 颜值结果区 -->
+  <view class="result">
+    <view>年龄： 18</view>
+    <view>性别： 男</view>
+    <view>颜值： 100</view>
+    <view>表情： 笑</view>
+  </view>
+
+  <!-- 按钮区域 -->
+  <button type="primary" class="btn">选择图片</button>
+
+</view>
