@@ -2,7 +2,7 @@
 
   <!-- 图片预览区 -->
   <view class="avatar">
-    <image src="/uploads/boy.jpg" mode="aspectFill"></image>
+    <image src="{{ imgPath }}" mode="aspectFill"></image>
   </view>
 
   <!-- 颜值结果区 -->
@@ -14,6 +14,6 @@
   </view>
 
   <!-- 按钮区域 -->
-  <button type="primary" class="btn">选择图片</button>
+  <button type="primary" class="btn" bind:tap="selectImage">选择图片</button>
 
 </view>
